@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!---Especificacion de idioma para el lenguaje, util para el navegador--->
+<!---en = ingles, es = espanol--->
+<html lang="es">
+
+<head>
+    <!---Configuraciones meta--->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---Título de la pagina--->
+    <title>Menu - Señor de los elotes</title>
+    <!---Descripcion de la pagina--->
+    <meta name = "Menu del señor de los elotes" content = "Informacion del menu y productos del Señor de los elotes">
+    <!---Link para archivo CSS--->
+    <link rel="stylesheet" href="Abundis_menu_css.css">
+    <!---Link para archivo javascript--->
+    <script src="Abundis_menu_java.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <!--Logo y nombre de la empresa************************************-->
+        <div class="logo-contenedor">
+            <img src="https://i.postimg.cc/D0Dj2Pzz/IMG-20260218-WA0012.jpg" alt="Logo El Señor de los Elotes" id="logo-principal">
+            <h1 id = "bienvenida" style="text-align: center;">El señor de los elotes</h1>
+        </div>
+        <br>
+    </header>
+    <main>
+        <!--Bienvenida a la pagina web, informacion de lo que contiene**********************-->
+        <section>
+            <p style="text-align: center;">Bienvenido al menu de <strong>El señor de los elotes</strong>
+             , tomate tu tiempo para visualizar los diferentes platillos que tenemos.</p>
+        </section>
+        <br>
+        <!--Menu de navegacion superior******************************-->
+        <section class="centralizado">
+            <h2 id="navegacionSuperior" style="text-align: center;">Menu de navegación</h2>
+            <nav style="text-align: center;" class="nav-estilo">
+                <a href="#menu">Menu</a> 
+                <a href="#contactos">Contactos</a>
+            </nav>
+        </section>
+        <!--Encierro en article, contendrá todo el menu del señor de los elotes****************************-->
+        <article class="section-centralizada">
+            <h2 id="menu" style="text-align: center;">Menu</h2>
+            <!--Primera seccion, Platillos de elote complicados*****************************+-->
+            <section>
+                <div class="tarjeta-producto"> <!--Imagen A; IA, el texto y la imagen deben estar encerrados en un rectangulo del mismo color que los hechos 
+                     en el archivo html pasado, con bordes ligeros color rubi
+                    ,todo centralizado, el texto en el <strong> debe ser grande, embellecido y dorado, el demas texto con letra normal;
+                        Este patron sigue con todos los <div> que contengan imagenes o videos de los productos, por favor.-->
+                    <p><strong>Elote especial</strong><br>Esta opción ofrece todos los siguientes ingredientes:  
+                        con verduras, queso y crema, mantequilla - queso y crema, limon y sal, huevo cocido.</p>
+                    <img src="https://i.postimg.cc/mgk4K3gy/menu-imagen-A.jpg">    
+                </div>
+                <br>
+                <div class="tarjeta-producto">
+                    <p><strong>Tostielote</strong><br>Esta opcion ofrece todos los siguientes ingredientes:
+                    Todos los ingredientes del 'Elote especial', Queso amarillo, Salsa verde.<br>
+                    esta opcion tambien ofrece diferentes tipos de papas, aparte de los tostilocos.</p>
+                    <img src="https://i.postimg.cc/VkJqvTNh/menu-imagen-B.jpg">
+                </div>
+                <br>
+                <div class="tarjeta-producto">
+                    <p><strong>Elote en palo</strong><br>Esta opcion ofrece los siguientes ingredientes:
+                    Queso y crema, Limon y sal, Salsas.</p>
+                    <img src="https://i.postimg.cc/wTXvVQbr/menu-imagen-C.jpg">
+                </div>
+                <br>
+                <div class="tarjeta-producto">
+                    <p><strong>Maru elote con papas</strong><br>Esta opcion ofrece los siguientes ingredientes:
+                    Crema y queso, Queso amarillo, Mantequilla, Salsas, Limon y sal, Diferentes tipos de papas</p>
+                    <img src="https://i.postimg.cc/N03qSWyh/menu-imagen-D.jpg">
+                </div>
+            </section>
+            <br>
+            <!--Demas platillos*********************************+-->
+            <section class="lista-especial">
+                <!--IA, la lista debe estar encerrada en un rectangulo del mismo color que
+                los del archivo HTML pasado con bordes ligeros color rubi, el titulo debe estar en dorado,
+                los elementos de la lista en el color verde fuerte empresarial, todo debe estar centralizado
+                -->
+                <h3 style="text-align: center;">Otros productos</h3><br>
+                <ul>
+                    <li>Elote en vaso</li>
+                    <li>Platos de verduras</li>
+                    <li>Papas solas</li>
+                    <li>Elote amarillo</li>
+                </ul>
+            </section>
+        </article>
+        <br>
+        <!--Tercera seccion, pequeña, dedicada a los links para aplicacion de comida a domicilio y telefonos de contactos******-->
+        <section class="tabla-menu">
+            <h3 id="contactos" style="text-align: center;">Contactos</h3><br>
+            <!--IA, la tabla debe ser atractiva visualmente y de color rojo con dorado, debe estar centralizada-->
+            <table>
+                <tr>
+                    <th>Local</th> <th>Numero de pedidos</th> <th>Rappi</th> <th>Horario</th>
+                </tr>
+                <tr>
+                    <td><a href="https://maps.app.goo.gl/uZs5fqjvXGvn8vJfA?g_st=aw">Señor de los elotes - Paseos del Sol</a></td> <td>En proceso</td> <td>Disponible en Rappi</td> <td>6:00Pm - 10:30Pm</td>
+                </tr>  
+                <tr>
+                    <td><a href="https://maps.app.goo.gl/6FafsTiRLrvyTH6i7?g_st=aw">Señor de los elotes - El sauz</a></td> <td>33 3491 7344</td> <td>Disponible en Rappi</td> <td>6:00Pm - 10:00Pm</td>
+                </tr>
+                <tr>
+                    <td><a href="https://maps.app.goo.gl/XdCBGKBtyJ3u4BxcA?g_st=aw">El señor de los elotes - Atemajac del Valle</a></td> <td>33 2117 9722</td> <td>Disponible en Rappi</td> <td>7:00 Pm - 10:00Pm</td>
+                </tr>
+                <tr>
+                    <td><a href="https://maps.app.goo.gl/P3Pc6CGJyK2f4T8i9?g_st=aw">Señor de los elotes - 8 de julio</a></td><td>33 2169 3911</td> <td>No disponible</td> <td>6:00 Pm - 10:00Pm</td>
+                </tr>
+            </table>
+        </section>
+        <br>
+    </main>
+    <footer>
+        <!--Primer aside, aqui va el menu de navegacion inferior*****************************************-->
+        <aside class="centralizado">
+            <h4 id="navegacionInferior" style="text-align: center;">Menu de navegación</h4><br>
+            <nav style="text-align: center;" class="nav-estilo">
+                <a href="#menu">Menu</a>
+                <a href="#contactos">Contactos</a>
+            </nav>    
+        </aside>
+    </footer>
+</body>
+</html>

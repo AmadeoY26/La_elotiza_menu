@@ -1,0 +1,196 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    /* Fondo verde bajo y agradable */
+    background-color: #eef7ee; 
+    color: #333;
+}
+
+/* --- Header (Rojo Ligero) --- */
+header {
+    background-color: #ee4242; /* Rojo ligero tipo crema/salsa suave */
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 3px solid #FFD700;
+}
+
+#logo-principal {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #FFD700;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+}
+
+#logo-principal:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.7);
+    border-color: #ffffff;
+}
+
+#bienvenida {
+    color: #FFD700; /* Dorado */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    margin-top: 15px;
+}
+
+/* --- Encabezados (Verde Empresa) --- */
+/* Agrupamos todos los niveles para que hereden el color verde */
+h2, h3, h4, h5 {
+    color: #ee4242; 
+    border-bottom: 2px solid #FFD700;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+
+/* --- Navegación (Superior e Inferior) --- */
+.nav-estilo {
+    padding: 15px;
+}
+
+.nav-estilo a {
+    text-decoration: none;
+    color: #2e7d32;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.nav-estilo a:hover {
+    background-color: #FFD700;
+    color: #1a1a1a;
+}
+
+/* --- Centralización de Asides y Contenido --- */
+.centralizado {
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco semitransparente */
+    border-radius: 15px;
+}
+
+.centralizado img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%; /* Imágenes de redes sociales circulares */
+    width: 80px;
+}
+
+/* --- Centrado de Encabezados --- */
+.section-centralizada {
+    text-align: center; /* Esto centra el h2/h3 que es inline-block */
+    margin-bottom: 30px;
+}
+
+/* --- Tablas --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #2e7d32;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+}
+
+td {
+    border: 1px solid #ece50d;
+    padding: 10px;
+    text-align: center;
+}
+
+/* --- Estilo de Tarjetas de Producto (El Rectángulo) --- */
+.tarjeta-producto {
+    background-color: rgba(255, 255, 255, 0.6); /* Fondo blanco semitransparente */
+    border: 3px solid #9b111e; /* Bordes color Rubí ligero */
+    border-radius: 20px;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 700px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.tarjeta-producto:hover {
+    transform: translateY(-5px); /* Salto sutil al pasar el mouse */
+}
+
+/* --- Texto Dorado y Embellecido --- */
+.tarjeta-producto p strong {
+    color: #FFD700; /* Dorado */
+    font-size: 1.8rem; /* Grande */
+    display: block;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra para resaltar */
+    font-family: 'Georgia', serif; /* Letra más elegante */
+}
+
+/* --- Imágenes de los Platillos --- */
+.tarjeta-producto img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 15px;
+    border: 2px solid #FFD700; /* Marco dorado para la imagen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Lista de Otros Productos --- */
+.lista-especial {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 3px solid #9b111e;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.lista-especial h3 {
+    color: #FFD700; /* Título dorado */
+    font-size: 2rem;
+}
+
+.lista-especial ul {
+    list-style: none; /* Quitamos los puntos por defecto */
+    padding: 0;
+}
+
+.lista-especial li {
+    color: #2e7d32; /* Verde fuerte empresarial */
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* --- Tabla Rojo y Dorado --- */
+.tabla-menu {
+    border: 2px solid #FFD700;
+}
+
+.tabla-menu th {
+    background-color: #ee4242; /* Rojo del header */
+    color: #FFD700; /* Dorado */
+    font-size: 1.2rem;
+}
+
+.tabla-menu td {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #FFD700;
+}
